@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="theWayOutsideOneBuilding" time="120.146" tests="2" failures="0" errors="0">
+   <testsuite name="theWayOutsideOneBuilding" tests="2" failures="0" errors="0" time="120.146" timestamp="2019-12-04 19:05:08" hostname="apershina - SOLARIS.msteam.local" id="Test Suites/theWayOutsideOneBuilding">
+      <properties>
+         <property name="deviceName" value="samsung SM-A530F (Android 9)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\apershina\\Katalon Studio\\floorsTesting\\Reports\\20191204_190502\\theWayOutsideOneBuilding\\20191204_190502"/>
+         <property name="logFiles" value="C:\\Users\\apershina\\Katalon Studio\\floorsTesting\\Reports\\20191204_190502\\theWayOutsideOneBuilding\\20191204_190502\\appium.log, C:\\Users\\apershina\\Katalon Studio\\floorsTesting\\Reports\\20191204_190502\\theWayOutsideOneBuilding\\20191204_190502\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="apershina - SOLARIS.msteam.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.8.1\&quot;,\&quot;revision\&quot;:null}}}"/>
+         <property name="katalonVersion" value="7.0.10.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="SM-A530F"/>
+         <property name="hostAddress" value="192.168.1.31"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="5200502e5b11c491"/>
+         <property name="deviceName" value="samsung SM-A530F (Android 9)"/>
+         <property name="deviceOSVersion" value="9"/>
+      </properties>
+      <testcase name="Test Cases/theWayFromNewToOld" time="61.806" classname="Test Cases/theWayFromNewToOld" status="PASSED">
+         <system-out><![CDATA[2019-12-04 19:05:10 - [TEST_CASE][PASSED] - Test Cases/theWayFromNewToOld: Test Cases/theWayFromNewToOld
+
+2019-12-04 19:05:11 - [TEST_STEP][PASSED] - startExistingApplication("com.msteam.floors.nsu"): Starting app with application ID: 'com.msteam.floors.nsu'
+
+2019-12-04 19:05:18 - [MESSAGE][INFO] - Appium server started on port 51,027
+
+2019-12-04 19:05:49 - [MESSAGE][PASSED] - Starting app with application ID: 'com.msteam.floors.nsu'
+
+2019-12-04 19:05:49 - [TEST_STEP][PASSED] - tap(findTestObject("testcases/android.widget.EditText0 - Search"), 0): Tapped on element 'Object Repository/testcases/android.widget.EditText0 - Search'
+
+2019-12-04 19:05:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-04 19:05:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/testcases/android.widget.EditText0 - Search'
+
+2019-12-04 19:05:55 - [TEST_STEP][PASSED] - random = new java.util.Random(): null
+
+2019-12-04 19:05:55 - [TEST_STEP][PASSED] - setText(findTestObject("testcases/android.widget.EditText0 - Search"), findTestData("nsuAssets").getValue(2, random.nextInt(392) + 1), 0): Text '1332' has been set to element 'Object Repository/testcases/android.widget.EditText0 - Search'
+
+2019-12-04 19:05:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-04 19:06:00 - [MESSAGE][PASSED] - Text '1332' has been set to element 'Object Repository/testcases/android.widget.EditText0 - Search'
+
+2019-12-04 19:06:00 - [TEST_STEP][PASSED] - tap(findTestObject("testcases/android.widget.LinearLayout6"), 0): Tapped on element 'Object Repository/testcases/android.widget.LinearLayout6'
+
+2019-12-04 19:06:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-04 19:06:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/testcases/android.widget.LinearLayout6'
+
+2019-12-04 19:06:03 - [TEST_STEP][PASSED] - tap(findTestObject("testcases/android.widget.Button0 - ROUTE TO"), 0): Tapped on element 'Object Repository/testcases/android.widget.Button0 - ROUTE TO'
+
+2019-12-04 19:06:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-04 19:06:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/testcases/android.widget.Button0 - ROUTE TO'
+
+2019-12-04 19:06:05 - [TEST_STEP][PASSED] - tap(findTestObject("testcases/android.widget.EditText1 (1)"), 0): Tapped on element 'Object Repository/testcases/android.widget.EditText1 (1)'
+
+2019-12-04 19:06:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-04 19:06:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/testcases/android.widget.EditText1 (1)'
+
+2019-12-04 19:06:07 - [TEST_STEP][PASSED] - setText(findTestObject("testcases/android.widget.EditText1 (2)"), findTestData("nsuAssets").getValue(4, random.nextInt(312) + 1), 0): Text '430 main' has been set to element 'Object Repository/testcases/android.widget.EditText1 (2)'
+
+2019-12-04 19:06:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-04 19:06:09 - [MESSAGE][PASSED] - Text '430 main' has been set to element 'Object Repository/testcases/android.widget.EditText1 (2)'
+
+2019-12-04 19:06:09 - [TEST_STEP][PASSED] - tap(findTestObject("testcases/android.widget.FrameLayout9 (1)"), 0): Tapped on element 'Object Repository/testcases/android.widget.FrameLayout9 (1)'
+
+2019-12-04 19:06:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-04 19:06:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/testcases/android.widget.FrameLayout9 (1)'
+
+2019-12-04 19:06:11 - [TEST_STEP][PASSED] - Start tear down : cl_csh: Method 'cl_csh' complete successfully
+
+2019-12-04 19:06:11 - [TEST_STEP][PASSED] - getRuntime().exec("C:\Users\apershina\AppData\Local\Android\Sdk\platform-tools\adb.exe shell pm clear com.msteam.floors.nsu"): null
+
+2019-12-04 19:06:11 - [MESSAGE][PASSED] - Method 'cl_csh' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/theWayFromOldToNew" time="57.22" classname="Test Cases/theWayFromOldToNew" status="PASSED">
+         <system-out><![CDATA[2019-12-04 19:06:11 - [TEST_CASE][PASSED] - Test Cases/theWayFromOldToNew: Test Cases/theWayFromOldToNew
+
+2019-12-04 19:06:12 - [TEST_STEP][PASSED] - startExistingApplication("com.msteam.floors.nsu"): Starting app with application ID: 'com.msteam.floors.nsu'
+
+2019-12-04 19:06:22 - [MESSAGE][INFO] - Appium server started on port 51,352
+
+2019-12-04 19:06:48 - [MESSAGE][PASSED] - Starting app with application ID: 'com.msteam.floors.nsu'
+
+2019-12-04 19:06:48 - [TEST_STEP][PASSED] - tap(findTestObject("testcases/android.widget.EditText0 - Search"), 0): Tapped on element 'Object Repository/testcases/android.widget.EditText0 - Search'
+
+2019-12-04 19:06:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-04 19:06:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/testcases/android.widget.EditText0 - Search'
+
+2019-12-04 19:06:54 - [TEST_STEP][PASSED] - random = new java.util.Random(): null
+
+2019-12-04 19:06:54 - [TEST_STEP][PASSED] - setText(findTestObject("testcases/android.widget.EditText0 - Search"), findTestData("nsuAssets").getValue(4, random.nextInt(312) + 1), 0): Text '118 main' has been set to element 'Object Repository/testcases/android.widget.EditText0 - Search'
+
+2019-12-04 19:06:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-04 19:06:57 - [MESSAGE][PASSED] - Text '118 main' has been set to element 'Object Repository/testcases/android.widget.EditText0 - Search'
+
+2019-12-04 19:06:57 - [TEST_STEP][PASSED] - tap(findTestObject("testcases/android.widget.LinearLayout6"), 0): Tapped on element 'Object Repository/testcases/android.widget.LinearLayout6'
+
+2019-12-04 19:06:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-04 19:07:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/testcases/android.widget.LinearLayout6'
+
+2019-12-04 19:07:00 - [TEST_STEP][PASSED] - tap(findTestObject("testcases/android.widget.Button0 - ROUTE TO"), 0): Tapped on element 'Object Repository/testcases/android.widget.Button0 - ROUTE TO'
+
+2019-12-04 19:07:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-04 19:07:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/testcases/android.widget.Button0 - ROUTE TO'
+
+2019-12-04 19:07:03 - [TEST_STEP][PASSED] - tap(findTestObject("testcases/android.widget.EditText1 (1)"), 0): Tapped on element 'Object Repository/testcases/android.widget.EditText1 (1)'
+
+2019-12-04 19:07:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-04 19:07:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/testcases/android.widget.EditText1 (1)'
+
+2019-12-04 19:07:05 - [TEST_STEP][PASSED] - setText(findTestObject("testcases/android.widget.EditText1 (2)"), findTestData("nsuAssets").getValue(3, random.nextInt(392) + 1), 0): Text '' has been set to element 'Object Repository/testcases/android.widget.EditText1 (2)'
+
+2019-12-04 19:07:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-04 19:07:07 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/testcases/android.widget.EditText1 (2)'
+
+2019-12-04 19:07:07 - [TEST_STEP][PASSED] - tap(findTestObject("testcases/android.widget.FrameLayout9 (1)"), 0): Tapped on element 'Object Repository/testcases/android.widget.FrameLayout9 (1)'
+
+2019-12-04 19:07:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-04 19:07:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/testcases/android.widget.FrameLayout9 (1)'
+
+2019-12-04 19:07:09 - [TEST_STEP][PASSED] - Start tear down : cl_csh: Method 'cl_csh' complete successfully
+
+2019-12-04 19:07:09 - [TEST_STEP][PASSED] - getRuntime().exec("C:\Users\apershina\AppData\Local\Android\Sdk\platform-tools\adb.exe shell pm clear com.msteam.floors.nsu"): null
+
+2019-12-04 19:07:09 - [MESSAGE][PASSED] - Method 'cl_csh' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-04 19:05:08 - [TEST_SUITE][PASSED] - theWayOutsideOneBuilding: Test Cases/theWayFromOldToNew]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

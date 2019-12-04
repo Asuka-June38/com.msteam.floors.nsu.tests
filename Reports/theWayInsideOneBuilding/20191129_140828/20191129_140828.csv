@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+theWayInsideOneBuilding,,,2019-11-29 14:08:33,2019-11-29 14:09:41,1m - 8.202s,PASSED
+,,,,,,
+Test Cases/theButtonNewBuildingInLeftPanel,,,2019-11-29 14:08:33,2019-11-29 14:09:21,47.797s,PASSED
+"startApplication(""C:\Users\apershina\Desktop\Projects\Floors\FloorsApp\app\build\outputs\apk\debug\app-debug.apk"", false)",,,2019-11-29 14:08:34,2019-11-29 14:09:04,30.204s,PASSED
+"tap(findTestObject(""testcases/android.widget.ImageView0""), 0)",,,2019-11-29 14:09:04,2019-11-29 14:09:11,6.084s,PASSED
+"tap(findTestObject(""testcases/android.support.v7.widget.LinearLayoutCompat0""), 0)",,,2019-11-29 14:09:11,2019-11-29 14:09:12,1.735s,PASSED
+"tap(findTestObject(""android.widget.EditText0 - ""), 0)",,,2019-11-29 14:09:12,2019-11-29 14:09:14,1.924s,PASSED
+random = new java.util.Random(),,,2019-11-29 14:09:14,2019-11-29 14:09:14,0.008s,PASSED
+"setText(findTestObject(""android.widget.EditText0 -  (1)""), findTestData(""nsuAssetsExcel"").getValue(1, random.nextInt(390) + 1), 0)",,,2019-11-29 14:09:14,2019-11-29 14:09:19,4.291s,PASSED
+"tap(findTestObject(""android.widget.LinearLayout5""), 0)",,,2019-11-29 14:09:19,2019-11-29 14:09:21,2.551s,PASSED
+,,,,,,
+Test Cases/theWayFromOneRoomToAnotherNewBuilding,,,2019-11-29 14:09:21,2019-11-29 14:09:41,19.714s,PASSED
+"tap(findTestObject(""testcases/android.widget.EditText0 - ""), 0)",,,2019-11-29 14:09:22,2019-11-29 14:09:24,2.407s,PASSED
+random = new java.util.Random(),,,2019-11-29 14:09:24,2019-11-29 14:09:24,0.001s,PASSED
+"setText(findTestObject(""testcases/android.widget.EditText0 -  (1)""), findTestData(""nsuAssetsExcel"").getValue(1, random.nextInt(390) + 1), 0)",,,2019-11-29 14:09:24,2019-11-29 14:09:27,2.868s,PASSED
+"tap(findTestObject(""testcases/android.widget.LinearLayout5""), 0)",,,2019-11-29 14:09:27,2019-11-29 14:09:30,2.564s,PASSED
+"tap(findTestObject(""testcases/android.widget.Button0 - ""), 0)",,,2019-11-29 14:09:30,2019-11-29 14:09:32,2.702s,PASSED
+"tap(findTestObject(""testcases/TextInputLayout0 -  ""), 0)",,,2019-11-29 14:09:32,2019-11-29 14:09:34,1.718s,PASSED
+"setText(findTestObject(""testcases/android.widget.EditText1""), findTestData(""nsuAssetsExcel"").getValue(1, random.nextInt(390) + 1), 0)",,,2019-11-29 14:09:34,2019-11-29 14:09:36,1.779s,PASSED
+"tap(findTestObject(""testcases/android.widget.FrameLayout9""), 0)",,,2019-11-29 14:09:36,2019-11-29 14:09:39,3.154s,PASSED
+"tap(findTestObject(""testcases/android.widget.ImageButton8""), 0)",,,2019-11-29 14:09:39,2019-11-29 14:09:41,1.702s,PASSED

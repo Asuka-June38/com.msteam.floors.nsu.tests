@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>theWayFromOneRoomToAnotherNewBuilding</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2cbd8d93-7390-4fa9-bbe4-db1c8374bf29</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f44cd96e-2386-48af-a2e9-5fff20eadd02</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

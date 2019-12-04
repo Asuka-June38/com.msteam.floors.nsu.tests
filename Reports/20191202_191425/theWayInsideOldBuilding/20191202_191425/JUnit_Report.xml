@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="theWayInsideOldBuilding" time="255.733" tests="2" failures="0" errors="0">
+   <testsuite name="theWayInsideOldBuilding" tests="2" failures="0" errors="0" time="255.733" timestamp="2019-12-02 19:14:30" hostname="apershina - SOLARIS.msteam.local" id="Test Suites/theWayInsideOldBuilding">
+      <properties>
+         <property name="deviceName" value="samsung SM-A530F (Android 9)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\apershina\\Katalon Studio\\floorsTesting\\Reports\\20191202_191425\\theWayInsideOldBuilding\\20191202_191425"/>
+         <property name="logFiles" value="C:\\Users\\apershina\\Katalon Studio\\floorsTesting\\Reports\\20191202_191425\\theWayInsideOldBuilding\\20191202_191425\\appium.log, C:\\Users\\apershina\\Katalon Studio\\floorsTesting\\Reports\\20191202_191425\\theWayInsideOldBuilding\\20191202_191425\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="apershina - SOLARIS.msteam.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.8.1\&quot;,\&quot;revision\&quot;:null}}}"/>
+         <property name="katalonVersion" value="7.0.10.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="SM-A530F"/>
+         <property name="hostAddress" value="192.168.1.31"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="5200502e5b11c491"/>
+         <property name="deviceName" value="samsung SM-A530F (Android 9)"/>
+         <property name="deviceOSVersion" value="9"/>
+      </properties>
+      <testcase name="Test Cases/theWayFromOneRoomToAnotherOldBuilding" time="141.714" classname="Test Cases/theWayFromOneRoomToAnotherOldBuilding" status="PASSED">
+         <system-out><![CDATA[2019-12-02 19:14:30 - [TEST_CASE][PASSED] - Test Cases/theWayFromOneRoomToAnotherOldBuilding: Test Cases/theWayFromOneRoomToAnotherOldBuilding
+
+2019-12-02 19:14:31 - [TEST_STEP][PASSED] - startExistingApplication("com.msteam.floors.nsu"): Starting app with application ID: 'com.msteam.floors.nsu'
+
+2019-12-02 19:14:38 - [MESSAGE][INFO] - Appium server started on port 58,673
+
+2019-12-02 19:16:25 - [MESSAGE][PASSED] - Starting app with application ID: 'com.msteam.floors.nsu'
+
+2019-12-02 19:16:25 - [TEST_STEP][PASSED] - tap(findTestObject("testcases/android.widget.ImageView0 (2)"), 0): Tapped on element 'Object Repository/testcases/android.widget.ImageView0 (2)'
+
+2019-12-02 19:16:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-02 19:16:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/testcases/android.widget.ImageView0 (2)'
+
+2019-12-02 19:16:31 - [TEST_STEP][PASSED] - tap(findTestObject("testcases/android.support.v7.widget.LinearLayoutCompat1 (1)"), 0): Tapped on element 'Object Repository/testcases/android.support.v7.widget.LinearLayoutCompat1 (1)'
+
+2019-12-02 19:16:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-02 19:16:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/testcases/android.support.v7.widget.LinearLayoutCompat1 (1)'
+
+2019-12-02 19:16:33 - [TEST_STEP][PASSED] - tap(findTestObject("testcases/android.widget.EditText0 - Search"), 0): Tapped on element 'Object Repository/testcases/android.widget.EditText0 - Search'
+
+2019-12-02 19:16:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-02 19:16:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/testcases/android.widget.EditText0 - Search'
+
+2019-12-02 19:16:35 - [TEST_STEP][PASSED] - random = new java.util.Random(): null
+
+2019-12-02 19:16:35 - [TEST_STEP][PASSED] - setText(findTestObject("testcases/android.widget.EditText0 - Search"), findTestData("nsuAssets").getValue(4, random.nextInt(312) + 1), 0): Text '133 main' has been set to element 'Object Repository/testcases/android.widget.EditText0 - Search'
+
+2019-12-02 19:16:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-02 19:16:39 - [MESSAGE][PASSED] - Text '133 main' has been set to element 'Object Repository/testcases/android.widget.EditText0 - Search'
+
+2019-12-02 19:16:39 - [TEST_STEP][PASSED] - tap(findTestObject("testcases/android.widget.LinearLayout5"), 0): Tapped on element 'Object Repository/testcases/android.widget.LinearLayout5'
+
+2019-12-02 19:16:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-02 19:16:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/testcases/android.widget.LinearLayout5'
+
+2019-12-02 19:16:42 - [TEST_STEP][PASSED] - tap(findTestObject("testcases/android.widget.Button0 - ROUTE TO"), 0): Tapped on element 'Object Repository/testcases/android.widget.Button0 - ROUTE TO'
+
+2019-12-02 19:16:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-02 19:16:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/testcases/android.widget.Button0 - ROUTE TO'
+
+2019-12-02 19:16:45 - [TEST_STEP][PASSED] - tap(findTestObject("testcases/android.widget.EditText1 (1)"), 0): Tapped on element 'Object Repository/testcases/android.widget.EditText1 (1)'
+
+2019-12-02 19:16:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-02 19:16:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/testcases/android.widget.EditText1 (1)'
+
+2019-12-02 19:16:46 - [TEST_STEP][PASSED] - setText(findTestObject("testcases/android.widget.EditText1"), findTestData("nsuAssets").getValue(4, random.nextInt(312) + 1), 0): Text '323а lab' has been set to element 'Object Repository/testcases/android.widget.EditText1'
+
+2019-12-02 19:16:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-02 19:16:48 - [MESSAGE][PASSED] - Text '323а lab' has been set to element 'Object Repository/testcases/android.widget.EditText1'
+
+2019-12-02 19:16:48 - [TEST_STEP][PASSED] - tap(findTestObject("testcases/android.widget.FrameLayout9"), 0): Tapped on element 'Object Repository/testcases/android.widget.FrameLayout9'
+
+2019-12-02 19:16:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-02 19:16:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/testcases/android.widget.FrameLayout9'
+
+2019-12-02 19:16:50 - [TEST_STEP][PASSED] - tap(findTestObject("testcases/android.widget.ImageButton8"), 0): Tapped on element 'Object Repository/testcases/android.widget.ImageButton8'
+
+2019-12-02 19:16:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-02 19:16:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/testcases/android.widget.ImageButton8']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/theWayFromOneRoomToAnotherOldBuildingLift" time="113.445" classname="Test Cases/theWayFromOneRoomToAnotherOldBuildingLift" status="PASSED">
+         <system-out><![CDATA[2019-12-02 19:16:52 - [TEST_CASE][PASSED] - Test Cases/theWayFromOneRoomToAnotherOldBuildingLift: Test Cases/theWayFromOneRoomToAnotherOldBuildingLift
+
+2019-12-02 19:16:52 - [TEST_STEP][PASSED] - startExistingApplication("com.msteam.floors.nsu"): Starting app with application ID: 'com.msteam.floors.nsu'
+
+2019-12-02 19:18:03 - [MESSAGE][PASSED] - Starting app with application ID: 'com.msteam.floors.nsu'
+
+2019-12-02 19:18:03 - [TEST_STEP][PASSED] - tap(findTestObject("testcases/android.widget.ImageView0 (2)"), 0): Tapped on element 'Object Repository/testcases/android.widget.ImageView0 (2)'
+
+2019-12-02 19:18:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-02 19:18:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/testcases/android.widget.ImageView0 (2)'
+
+2019-12-02 19:18:04 - [TEST_STEP][PASSED] - tap(findTestObject("testcases/android.support.v7.widget.LinearLayoutCompat1 (1)"), 0): Tapped on element 'Object Repository/testcases/android.support.v7.widget.LinearLayoutCompat1 (1)'
+
+2019-12-02 19:18:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-02 19:18:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/testcases/android.support.v7.widget.LinearLayoutCompat1 (1)'
+
+2019-12-02 19:18:06 - [TEST_STEP][PASSED] - tap(findTestObject("testcases/android.widget.EditText0 - Search"), 0): Tapped on element 'Object Repository/testcases/android.widget.EditText0 - Search'
+
+2019-12-02 19:18:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-02 19:18:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/testcases/android.widget.EditText0 - Search'
+
+2019-12-02 19:18:08 - [TEST_STEP][PASSED] - random = new java.util.Random(): null
+
+2019-12-02 19:18:08 - [TEST_STEP][PASSED] - setText(findTestObject("testcases/android.widget.EditText0 - Search"), findTestData("nsuAssets").getValue(4, random.nextInt(392) + 1), 0): Text '342 main' has been set to element 'Object Repository/testcases/android.widget.EditText0 - Search'
+
+2019-12-02 19:18:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-02 19:18:10 - [MESSAGE][PASSED] - Text '342 main' has been set to element 'Object Repository/testcases/android.widget.EditText0 - Search'
+
+2019-12-02 19:18:10 - [TEST_STEP][PASSED] - tap(findTestObject("testcases/android.widget.LinearLayout6"), 0): Tapped on element 'Object Repository/testcases/android.widget.LinearLayout6'
+
+2019-12-02 19:18:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-02 19:18:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/testcases/android.widget.LinearLayout6'
+
+2019-12-02 19:18:12 - [TEST_STEP][PASSED] - tap(findTestObject("testcases/android.widget.Button0 - ROUTE TO"), 0): Tapped on element 'Object Repository/testcases/android.widget.Button0 - ROUTE TO'
+
+2019-12-02 19:18:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-02 19:18:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/testcases/android.widget.Button0 - ROUTE TO'
+
+2019-12-02 19:18:37 - [TEST_STEP][PASSED] - tap(findTestObject("testcases/android.widget.EditText1 (1)"), 0): Tapped on element 'Object Repository/testcases/android.widget.EditText1 (1)'
+
+2019-12-02 19:18:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-02 19:18:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/testcases/android.widget.EditText1 (1)'
+
+2019-12-02 19:18:38 - [TEST_STEP][PASSED] - setText(findTestObject("testcases/android.widget.EditText1 (2)"), findTestData("nsuAssets").getValue(4, random.nextInt(392) + 1), 0): Text '331 lab' has been set to element 'Object Repository/testcases/android.widget.EditText1 (2)'
+
+2019-12-02 19:18:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-02 19:18:40 - [MESSAGE][PASSED] - Text '331 lab' has been set to element 'Object Repository/testcases/android.widget.EditText1 (2)'
+
+2019-12-02 19:18:40 - [TEST_STEP][PASSED] - tap(findTestObject("testcases/android.widget.Switch0 - OFF"), 0): Tapped on element 'Object Repository/testcases/android.widget.Switch0 - OFF'
+
+2019-12-02 19:18:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-02 19:18:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/testcases/android.widget.Switch0 - OFF'
+
+2019-12-02 19:18:42 - [TEST_STEP][PASSED] - tap(findTestObject("testcases/android.widget.FrameLayout9 (1)"), 0): Tapped on element 'Object Repository/testcases/android.widget.FrameLayout9 (1)'
+
+2019-12-02 19:18:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-02 19:18:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/testcases/android.widget.FrameLayout9 (1)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-02 19:14:30 - [TEST_SUITE][PASSED] - theWayInsideOldBuilding: Test Cases/theWayFromOneRoomToAnotherOldBuildingLift]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
