@@ -21,8 +21,8 @@ Mobile.tap(findTestObject('testcases/android.widget.EditText0 - Search'), 0)
 
 Random random = new Random()
 
-Mobile.setText(findTestObject('testcases/android.widget.EditText0 - Search'), findTestData('nsuAssets').getValue(2, random.nextInt(
-            392) + 1), 0)
+Mobile.setText(findTestObject('testcases/android.widget.EditText0 - Search'), findTestData('nsuAssetsLocal').getValue(2, 
+        random.nextInt(392) + 1), 0)
 
 Mobile.tap(findTestObject('testcases/android.widget.LinearLayout6'), 0)
 
@@ -30,13 +30,14 @@ Mobile.tap(findTestObject('testcases/android.widget.Button0 - ROUTE TO'), 0)
 
 Mobile.tap(findTestObject('testcases/android.widget.EditText1 (1)'), 0)
 
-Mobile.setText(findTestObject('testcases/android.widget.EditText1 (2)'), findTestData('nsuAssets').getValue(4, random.nextInt(
+Mobile.setText(findTestObject('testcases/android.widget.EditText1 (2)'), findTestData('nsuAssetsLocal').getValue(4, random.nextInt(
             312) + 1), 0)
 
 Mobile.tap(findTestObject('testcases/android.widget.FrameLayout9 (1)'), 0)
 
 @com.kms.katalon.core.annotation.TearDown
 def cl_csh() {
+<<<<<<< HEAD
 	try {
 		Runtime.getRuntime().exec(".\\platform-tools\\adb.exe shell pm clear com.msteam.floors.nsu")
 	} catch (Exception e) {
@@ -47,4 +48,7 @@ def cl_csh() {
 	} catch (Exception e) {
 			System.err.print("RunTimeException")
 		}
+=======
+    Runtime.getRuntime().exec('.\\platform-tools\\adb.exe shell pm clear com.msteam.floors.nsu')
+>>>>>>> b79fe0f5128b721663d0a3a44cde75307448951a
 }
