@@ -21,8 +21,8 @@ Mobile.tap(findTestObject('testcases/android.widget.EditText0 - Search'), 0)
 
 Random random = new Random()
 
-Mobile.setText(findTestObject('testcases/android.widget.EditText0 - Search'), findTestData('nsuAssets').getValue(2, random.nextInt(
-            392) + 1), 0)
+Mobile.setText(findTestObject('testcases/android.widget.EditText0 - Search'), findTestData('nsuAssetsLocal').getValue(2, 
+        random.nextInt(392) + 1), 0)
 
 Mobile.tap(findTestObject('testcases/android.widget.LinearLayout6'), 0)
 
@@ -38,6 +38,6 @@ Mobile.tap(findTestObject('testcases/android.widget.FrameLayout9 (2)'), 0)
 
 @com.kms.katalon.core.annotation.TearDown
 def cl_csh() {
-	Runtime.getRuntime().exec(".\\platform-tools\\adb.exe shell pm clear com.msteam.floors.nsu")
+    Runtime.getRuntime().exec('.\\platform-tools\\adb.exe shell pm clear com.msteam.floors.nsu')
 }
 
