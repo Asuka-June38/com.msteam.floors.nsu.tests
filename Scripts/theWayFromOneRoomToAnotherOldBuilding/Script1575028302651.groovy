@@ -43,5 +43,14 @@ Mobile.tap(findTestObject('testcases/android.widget.ImageButton8'), 0)
 
 @com.kms.katalon.core.annotation.TearDown
 def cl_csh() {
-	Runtime.getRuntime().exec(".\\platform-tools\\adb.exe shell pm clear com.msteam.floors.nsu")
+	try {
+		Runtime.getRuntime().exec(".\\platform-tools\\adb.exe shell pm clear com.msteam.floors.nsu")
+	} catch (Exception e) {
+			System.err.print("RunTimeException")
+		}
+	try {
+		Runtime.getRuntime().exec("./platform-tools/adb.exe shell pm clear com.msteam.floors.nsu")
+	} catch (Exception e) {
+			System.err.print("RunTimeException")
+		}
 }
