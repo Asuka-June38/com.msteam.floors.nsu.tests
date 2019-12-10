@@ -39,6 +39,7 @@ Mobile.tap(findTestObject('testcases/android.widget.FrameLayout9 (2)'), 0)
 @com.kms.katalon.core.annotation.TearDown
 def cl_csh() {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	try {
 		Runtime.getRuntime().exec(".\\platform-tools\\adb.exe shell pm clear com.msteam.floors.nsu")
 	} catch (Exception e) {
@@ -55,3 +56,7 @@ def cl_csh() {
 }
 
 >>>>>>> b79fe0f5128b721663d0a3a44cde75307448951a
+=======
+	Runtime.getRuntime().exec(".\\platform-tools\\adb.exe shell pm clear com.msteam.floors.nsu")
+}
+>>>>>>> parent of aeef3aa... Change cl_csh method. passes were avaliable only for windows, now they work for mac systems.

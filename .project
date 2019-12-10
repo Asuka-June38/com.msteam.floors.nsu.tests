@@ -160,6 +160,7 @@
 				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
 			</matcher>
 		</filter>
+<<<<<<< HEAD
 		<filter>
 <<<<<<< HEAD
 			<id>1575886446044</id>
@@ -222,5 +223,7 @@
 				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
 			</matcher>
 		</filter>
+=======
+>>>>>>> parent of aeef3aa... Change cl_csh method. passes were avaliable only for windows, now they work for mac systems.
 	</filteredResources>
 </projectDescription>
