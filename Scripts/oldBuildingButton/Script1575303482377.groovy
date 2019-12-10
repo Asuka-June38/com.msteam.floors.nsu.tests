@@ -34,6 +34,9 @@ Mobile.tap(findTestObject('testcases/android.widget.LinearLayout6'), 0)
 def cl_csh() {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9856e8beac1eaf11e7ab56515d2d5155b409a0a2
 	try {
 		Runtime.getRuntime().exec(".\\platform-tools\\adb.exe shell pm clear com.msteam.floors.nsu")
 	} catch (Exception e) {
@@ -50,7 +53,10 @@ def cl_csh() {
 }
 
 >>>>>>> b79fe0f5128b721663d0a3a44cde75307448951a
+<<<<<<< HEAD
 =======
 	Runtime.getRuntime().exec(".\\platform-tools\\adb.exe shell pm clear com.msteam.floors.nsu")
 }
 >>>>>>> parent of aeef3aa... Change cl_csh method. passes were avaliable only for windows, now they work for mac systems.
+=======
+>>>>>>> 9856e8beac1eaf11e7ab56515d2d5155b409a0a2
